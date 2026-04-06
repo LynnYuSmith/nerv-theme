@@ -50,6 +50,15 @@ cp zed-extension/themes/nerv.json ~/.config/zed/themes/
 
 Then open Command Palette and select "theme: Select Theme" → "NERV".
 
+### JetBrains IDEs (PyCharm, IntelliJ IDEA, WebStorm, etc.)
+
+1. Download `nerv-theme.jar` from [Releases](https://github.com/LynnYuSmith/nerv-theme/releases) (or build from `jetbrains-theme/`)
+2. In your IDE: **Settings → Plugins → ⚙️ → Install Plugin from Disk...**
+3. Select the `.jar` file and restart
+4. Go to **Settings → Appearance & Behavior → Appearance** → select **NERV**
+
+See [jetbrains-theme/README.md](jetbrains-theme/README.md) for build instructions.
+
 ### Neovim
 
 **Using [lazy.nvim](https://github.com/folke/lazy.nvim):**

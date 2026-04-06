@@ -14,3 +14,4 @@ node_modules/
 
 # Package files
 *.vsix
+jetbrains-theme/nerv-theme.jar

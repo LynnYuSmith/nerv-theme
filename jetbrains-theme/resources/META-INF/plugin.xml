@@ -1,0 +1,16 @@
+<idea-plugin>
+  <id>com.wongmjane.nerv-theme</id>
+  <name>NERV Theme</name>
+  <version>1.0.0</version>
+  <vendor url="https://github.com/wongmjane/nerv-theme">Jane Manchun Wong</vendor>
+  <description><![CDATA[
+    A dark theme inspired by 80s/90s cyberpunk interfaces, Evangelion's NERV headquarters,
+    and the green-tinted cinematography of Wong Kar-wai.<br/><br/>
+    Deep oceanic greens meet warning-sign orange. Phosphor glow on aging CRT monitors.
+  ]]></description>
+  <idea-version since-build="233.0" />
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="com.wongmjane.nerv-theme" path="/themes/nerv.theme.json" />
+  </extensions>
+</idea-plugin>
