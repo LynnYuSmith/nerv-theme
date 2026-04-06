@@ -9,7 +9,7 @@
     Deep oceanic greens meet warning-sign orange. Phosphor glow on aging CRT monitors.
   ]]></description>
   <idea-version since-build="233.0" />
-  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.lang</depends>
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="com.wongmjane.nerv-theme" path="/themes/nerv.theme.json" />
   </extensions>
